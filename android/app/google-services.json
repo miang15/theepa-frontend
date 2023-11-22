@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "818533872740",
+    "project_id": "theepa-20189",
+    "storage_bucket": "theepa-20189.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818533872740:android:78b78600f64c5a8d9c9b71",
+        "android_client_info": {
+          "package_name": "com.approcket.theepa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818533872740-9o94q236gl4tbj71i0n8kvkda6ctl74q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.approcket.theepa",
+            "certificate_hash": "c962d5875a33aaa28d6d03b60cd236db7cc78180"
+          }
+        },
+        {
+          "client_id": "818533872740-a2qc97b4rtq72k8sj90m7mhgd69int61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.approcket.theepa",
+            "certificate_hash": "cd484f9b1cd6e610c10149a29231b38ee361ab58"
+          }
+        },
+        {
+          "client_id": "818533872740-o0cb1s0tvslomo3v7vokv2l754pdn0dl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHPKMtS1VRTtLOiOvAN1954DSuVHHQLQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818533872740-o0cb1s0tvslomo3v7vokv2l754pdn0dl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

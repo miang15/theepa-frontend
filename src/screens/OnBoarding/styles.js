@@ -1,0 +1,421 @@
+import {StyleSheet} from 'react-native';
+import theme from '../../utils/theme';
+import {
+  margin,
+  padding,
+  scaleFont,
+  scaleHeight,
+  scaleSize,
+  scaleWidth,
+} from '../../utils/Layout';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: theme.white,
+  },
+  emoji: {
+    fontSize: scaleFont(22),
+  },
+  onboarding: {
+    width: scaleSize(230),
+    height: scaleSize(220),
+    alignSelf: 'center',
+    alignItems: 'center',
+    overflow: 'hidden',
+    ...margin(30, 0, 20, 0),
+  },
+  fetch: {
+    color: theme.primary,
+    fontFamily: theme.sandbold,
+    fontSize: scaleFont(20),
+    ...margin(0, 20, 0, 20),
+  },
+  fetchdesc: {
+    color: theme.lightgrey,
+    fontFamily: theme.sandregular,
+    fontSize: scaleFont(14),
+    ...margin(5, 20, 0, 20),
+  },
+  skipfetch: {
+    color: theme.primary,
+    textDecorationLine: 'underline',
+    textAlign: 'center',
+    alignSelf: 'center',
+    fontFamily: theme.sandregular,
+    ...margin(5, 0, 5, 0),
+  },
+  loadingdesc: {
+    color: theme.lightgrey,
+    fontFamily: theme.sandregular,
+    textAlign: 'center',
+    ...margin(5, 5, 5, 5),
+  },
+  iconlist: {
+    width: '90%',
+    alignSelf: 'center',
+    overflow: 'hidden',
+    flexGrow: 0,
+    maxHeight: '25%',
+  },
+  selecticon: {
+    ...margin(5, 20, 0, 20),
+    fontFamily: theme.sandregular,
+    color: theme.darkestgray,
+  },
+  iconview: {
+    width: scaleSize(50),
+    height: scaleSize(50),
+    alignSelf: 'center',
+    borderWidth: 1,
+    borderColor: theme.darkestgray,
+    padding: 8,
+    ...margin(5, 8, 5, 8),
+    borderRadius: 10,
+  },
+  img: {
+    ...theme.img,
+    tintColor: theme.secondary,
+  },
+  viewmore: {
+    ...margin(0, 20, 5, 20),
+    color: theme.darkestgray,
+    fontFamily: theme.sandregular,
+    textDecorationLine: 'underline',
+  },
+  setcategory: {
+    ...margin(50, 0, 10, 0),
+    width: '50%',
+  },
+
+  logout: {
+    ...margin(3, 20, 0, 20),
+  },
+  swiper: {},
+  empty: {
+    width: '25%',
+    height: scaleHeight(120),
+    ...margin(5, 5, 5, 5),
+    overflow: 'hidden',
+  },
+  nodata: {
+    alignSelf: 'center',
+    textAlign: 'center',
+    ...margin(100, 20, 100, 20),
+  },
+  error: {
+    color: theme.red,
+    ...margin(3, 20, 0, 20),
+  },
+  error2: {
+    color: theme.red,
+    ...margin(3, 20, 0, 20),
+  },
+  slide1: {
+    justifyContent: 'flex-end',
+    flex: 1,
+    ...margin(0, 0, 0, 0),
+  },
+  headingrow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    ...margin(5, 10, 5, 10),
+  },
+  banknames: {
+    fontFamily: theme.sandsemibold,
+    color: theme.darkestgray,
+    alignSelf: 'flex-end',
+    textAlign: 'left',
+    ...margin(3, 5, 3, 5),
+  },
+  slide2: {
+    ...padding(20, 0, 0, 0),
+  },
+  locker: {
+    width: scaleSize(153),
+    height: scaleSize(170),
+    alignItems: 'center',
+    overflow: 'hidden',
+    alignSelf: 'center',
+    ...margin(20, 0, 20, 0),
+  },
+  accounts: {
+    color: theme.primary,
+    fontFamily: theme.sandbold,
+    fontSize: scaleFont(18),
+    ...margin(5, 20, 0, 20),
+  },
+  accountdesc: {
+    color: theme.lightgrey,
+    fontFamily: theme.sandregular,
+    ...margin(0, 20, 0, 20),
+  },
+  slide3: {
+    flex: 1,
+    paddingVertical: 10,
+    paddingTop: 15,
+  },
+  goalimg: {
+    width: scaleSize(220),
+    height: scaleSize(220),
+    alignSelf: 'center',
+    ...margin(15, 0, 0, 0),
+  },
+  goaltitle: {
+    marginTop: scaleHeight(30),
+  },
+  addgoal: {
+    ...margin(50, 0, 10, 0),
+  },
+  categoryView: {
+    ...margin(20, 20, 0, 20),
+    flexGrow: 0,
+    maxHeight: scaleHeight(350),
+  },
+  addnew: {
+    color: theme.primary,
+    ...margin(5, 20, 0, 20),
+    textDecorationLine: 'underline',
+    fontFamily: theme.sandregular,
+  },
+  list: {
+    height: scaleHeight(300),
+    width: scaleWidth(360),
+    alignSelf: 'center',
+    overflow: 'hidden',
+    ...margin(20, 0, 0, 0),
+  },
+  listcontainer: {
+    paddingTop: 5,
+    paddingBottom: 8,
+  },
+  desc: {
+    ...margin(30, 20, 0, 20),
+    textAlign: 'center',
+  },
+  next: {
+    backgroundColor: theme.skyblue,
+    width: theme.wp('65%'),
+    ...margin(50, 0, 100, 0),
+  },
+  modal: {
+    backgroundColor: theme.white,
+    padding: 20,
+    width: theme.wp('90%'),
+    alignSelf: 'center',
+    borderRadius: 10,
+  },
+  modaltext: {
+    textAlign: 'center',
+    marginBottom: theme.hp('2%'),
+  },
+  dot: {
+    width: scaleSize(10),
+    height: scaleSize(10),
+    borderRadius: 14,
+    backgroundColor: '#F0F0F0',
+  },
+  activedot: {
+    width: scaleSize(10),
+    height: scaleSize(10),
+    borderRadius: 14,
+    backgroundColor: theme.primary,
+  },
+  history: {
+    textAlign: 'left',
+    ...margin(5, 20, 5, 20),
+    color: theme.primary,
+    fontFamily: theme.sandbold,
+    fontSize: scaleFont(22),
+  },
+  bottomview: {
+    position: 'absolute',
+    bottom: scaleHeight(120),
+    width: '100%',
+    alignSelf: 'center',
+    overflow: 'hidden',
+    ...margin(10, 0, 10, 0),
+  },
+  notnow: {
+    ...margin(10, 20, 5, 20),
+    alignSelf: 'center',
+    textAlign: 'center',
+    color: theme.primary,
+    textDecorationLine: 'underline',
+    fontFamily: theme.sandregular,
+  },
+  containerStyle: {
+    backgroundColor: theme.white,
+    width: scaleWidth(370),
+    alignSelf: 'center',
+    justifyContent: 'flex-start',
+    borderRadius: 10,
+    paddingVertical: 10,
+    paddingBottom: 0,
+  },
+  vendorlist: {
+    height: scaleHeight(400),
+    flexGrow: 0,
+    ...margin(15, 10, 10, 15),
+    ...padding(5, 5, 5, 5),
+  },
+  done: {
+    width: scaleWidth(150),
+    ...margin(25, 0, 0, 0),
+  },
+  vendordesc: {
+    alignSelf: 'center',
+    textAlign: 'center',
+    ...margin(5, 10, 5, 10),
+  },
+  vendorView: {
+    justifyContent: 'flex-start',
+    ...margin(10, 0, 10, 0),
+  },
+  vendorclose: {
+    alignSelf: 'flex-end',
+    ...margin(0, 10, 10, 10),
+  },
+  vendorContainer: {
+    flex: 1,
+    backgroundColor: theme.white,
+    width: scaleWidth(370),
+    alignSelf: 'center',
+    justifyContent: 'flex-start',
+    borderRadius: 10,
+    paddingVertical: 10,
+    paddingBottom: 20,
+  },
+  vendorrow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  vendors: {
+    alignSelf: 'flex-start',
+    width: scaleWidth(200),
+    ...margin(20, 10, 0, 20),
+  },
+  modalView: {
+    justifyContent: 'center',
+    ...margin(20, 0, 0, 0),
+  },
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    alignSelf: 'flex-end',
+    width: '70%',
+    paddingRight: 5,
+    paddingTop: 5,
+  },
+  modalinput: {
+    ...margin(20, 0, 10, 0),
+  },
+  selectview: {
+    ...margin(20, 20, 0, 20),
+  },
+  heading: {
+    ...margin(20, 20, 0, 20),
+    fontFamily: theme.sandbold,
+    color: theme.primary,
+    fontSize: scaleFont(20),
+  },
+  currentgoals: {
+    ...margin(30, 20, 10, 20),
+    fontFamily: theme.sandbold,
+    color: theme.primary,
+    fontSize: scaleFont(20),
+  },
+  description: {
+    color: theme.lightgrey,
+    ...margin(0, 20, 0, 20),
+    fontFamily: theme.sandregular,
+    fontSize: scaleFont(14),
+    lineHeight: scaleHeight(20),
+  },
+  plus: {
+    alignSelf: 'center',
+    ...margin(130, 0, 0, 0),
+  },
+  skip: {
+    color: theme.primary,
+    textDecorationLine: 'underline',
+    alignSelf: 'center',
+    textAlign: 'center',
+    position: 'absolute',
+    bottom: scaleHeight(110),
+    fontFamily: theme.sandregular,
+  },
+  goal: {
+    alignSelf: 'flex-start',
+    ...margin(30, 20, 0, 20),
+  },
+  goalamount: {
+    alignSelf: 'flex-start',
+    ...margin(10, 20, 0, 20),
+  },
+  categorydropdown: {
+    ...margin(20, 20, 10, 20),
+    width: scaleWidth(180),
+    alignSelf: 'flex-start',
+  },
+  daterow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    ...margin(0, 20, 0, 20),
+  },
+  startdate: {
+    width: '45%',
+    borderWidth: 1,
+    borderColor: theme.black,
+    backgroundColor: theme.white,
+  },
+  goalslist: {
+    height: scaleHeight(300),
+    flexGrow: 0,
+    paddingVertical: scaleSize(10),
+    ...margin(0, 10, 10, 10),
+    overflow: 'hidden',
+  },
+  textrow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    alignSelf: 'center',
+    width: scaleWidth(320),
+    ...margin(5, 20, 5, 20),
+    overflow: 'hidden',
+  },
+  goalname: {
+    width: '65%',
+  },
+  goalvalue: {
+    width: '30%',
+  },
+  progress: {
+    alignSelf: 'center',
+  },
+  newgoal: {
+    ...margin(100, 0, 15, 0),
+    ...padding(1.5, 1.5, 1.5, 1.5),
+  },
+  gradient: {
+    backgroundColor: theme.white,
+  },
+  dashboard: {
+    backgroundColor: theme.white,
+    borderColor: theme.black,
+    borderWidth: 1,
+    ...margin(50, 0, 0, 0),
+  },
+  emojiModal: {
+    flex: 1,
+    backgroundColor: theme.white,
+    paddingHorizontal: scaleWidth(20),
+  },
+  cross: {
+    alignSelf: 'flex-end',
+  },
+});

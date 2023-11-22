@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Theepa</string>
+    <string name="facebook_app_id">918286686143115</string>
+    <string name="facebook_client_token">a1a5e7c482c3bc652289a733fd4a00ab</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">nQusBWS8lHhKFn8Y1ReY2TdIFmo3aKBWdbgw7</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+<string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+</resources>
